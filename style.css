@@ -1,0 +1,57 @@
+/* style.css */
+  body {
+    background: rgb(12, 24, 35);
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica;
+  }
+
+  h1{
+    font-family: Courier;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-family: Courier;
+    color: gold;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+
+  a {
+    color: yellow;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: hotpink;
+  }
+  #banner{
+      text-align: center;
+      background-image: "images/pouletbuuse.JPEG";
+      background-size: cover;
+      padding: 150px;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+    }
+    #banner h1 {
+      color: white;
+      font-size: 50px;
+    }
+    #banner p {
+      color: white;
+      opacity: 0.8;
+      font-size: 30px;
+      font-weight: lighter;
+    }
+    #footer{
+      padding: 30px;
+      background: rgb(30, 30, 30);
+      color: lightgrey;
+    }
+    .card{
+      padding: 50px;
+      font-weight: lighter;
+    }
